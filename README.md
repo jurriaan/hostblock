@@ -1,6 +1,8 @@
 # Hostblock
 
-Hostblock generates a hostfile based blocklist from various [sources](https://github.com/jurriaan/hostblock/lib/hostblock.rb)
+[![Gem Version](http://img.shields.io/gem/v/hostblock.svg)](http://badge.fury.io/rb/hostblock) [![Dependency Status](http://img.shields.io/gemnasium/jurriaan/hostblock.svg)](https://gemnasium.com/jurriaan/hostblock)
+
+Hostblock generates a hostfile based blocklist from various [sources](https://github.com/jurriaan/hostblock/blob/master/lib/hostblock.rb)
 
 ## Installation
 
