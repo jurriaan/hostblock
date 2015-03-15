@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "hostblock"
+
+Hostblock.generate_hosts_file
