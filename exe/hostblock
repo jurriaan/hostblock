@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
-require "hostblock"
+require 'hostblock'
 
-Hostblock.generate_hosts_file
+if ARGV == ['--json']
+  Hostblock.generate_content_blocking_list
+else
+  Hostblock.generate_hosts_file
+end
